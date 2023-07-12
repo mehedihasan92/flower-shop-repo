@@ -1,0 +1,244 @@
+
+/* Header Section Start  */
+.header{
+    background: rgba(229, 84, 115, 0.10);
+    /* padding: 200px;  Etar dorker nei  */
+    /* margin: 100px;   Etar dorker nei */
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;  Etar dorker nei  */
+
+}
+
+.banner-content{
+    width: 600px;
+    padding: 100px 10px 100px 240px;
+
+}
+
+.profile-pic{
+    max-width: 500px;
+    padding: 20px 180px 0 50px;
+}
+
+.banner-title{
+
+    color: #272727;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 53px;
+    font-weight: 700;
+    width: 500px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+
+
+    /* color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    width: 500px;
+    flex-direction: column;
+    flex-shrink: 0; */
+
+    
+
+}
+
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato ;
+    font-size: 14px;
+    width: 450px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.btn-header{
+    padding-bottom: 100px;
+}
+
+
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Third Section Start */
+.deal{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 100px 0px;
+}
+.deal-content{
+    padding: 250px 30px 200px 300px;
+    text-align: center;
+
+}
+.deal-title{
+    color: #272727;
+    font-family:'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+.orange,{
+    color: #E55473;
+}
+
+.deal-description{
+    width: 480px;
+}
+
+.picture-8{
+    padding: 100px 300px 100px 50px;
+
+}
+
+/* Fourth Section Start */
+.fifth-section{
+    margin: 80px 100px;
+    /* text-align: center; */
+}
+.instagram-content{
+    /* text-align: center; */
+
+}
+.instagram-title{
+    color: #272727;
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+
+
+}
+.instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 630px;
+    padding-left: 340px;
+    /* padding: 0px 300px 20px 300px; */
+}
+
+.instagram-pics{
+    display: flex;
+    gap: 14px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.instagram-flowers{
+
+}
+
+
+
+/* Sixth Section Start */
+.form-section{
+    text-align: center;
+    background-image:url('images/Rectangle-9.png');
+    /* width: 1250px;
+    height: 400px; */
+    margin: 0px 60px 0px 80px;
+    padding: 100px 200px 100px 200px;
+}
+
+.form-title{
+    color: #272727;
+    font-family:'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.form-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.form-in{
+    display:inline-flex;
+    gap: 15px;
+}
+
+.email{
+    width: 500px;
+}
+
+/* Footer Section Start */
+footer{
+    background: #111010;
+    font-family: Lato;
+    text-align: center;
+    /* width: 1250px;
+    height: 449px; */
+    flex-shrink: 0;
+    margin-top: 100px;
+    padding: 120px 340px;
+
+}
+
+.footer-content-title{
+    color: #E55473;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: Lato; */
+    font-size: 40px;
+    font-weight: 800;
+
+
+}
+
+.footer-content-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 550px;
+    padding-left: 170px;
+}
+
+.footer-info{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.primary{
+    color: white;
+}
